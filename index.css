@@ -45,3 +45,53 @@ body {
     margin: 10px;
     border: solid 2px #d256ff;
   }
+
+  .boton:hover {
+    position: relative;
+    transition-property: background-color, color;
+    transition-duration: 1s;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+    -webkit-transition-property: background-color, color;
+    -webkit-transition-duration: 1s;
+    -o-transition-property: background-color, color;
+    -o-transition-duration: 1s;
+    background-color:#d256ff;
+    color:black;
+    
+    }
+    
+    img {
+    width: 80%;
+    height: 50%;
+    margin-top: 4%;
+    margin-bottom: 4%;
+    margin-left: 1%;
+    margin-right: 1;
+    }
+    
+    .h2receta {
+    color: #d256ff;
+    }
+    
+    .receta {
+    background-color: #f0daf8;
+    border: solid #d256ff 3px;
+    align-items: center;
+    margin-bottom: 0;
+    text-indent: 1.5em;
+    margin-top: 0 
+    }
+    
+    .fotoreceta{
+    max-width: 37%;
+    margin-right: 2%;
+    }
+    
+    .indexpost {
+    text-align: center;
+    margin: 3%;
+    width: 70%;
+    height: 50%;
+    border: 3px solid #d256ff;
+    background-color: #f0daf8;
+    }
